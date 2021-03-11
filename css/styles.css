@@ -1,4 +1,77 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+/* Mobile */
+@media only screen and (max-width: 450px) and (min-width: 300px) {
+    #banner-image {
+        max-height: 60vh;
+    }
+    .banner-image-div {
+        display: flex;
+        justify-content: center;
+    }
+    #banner-subtitle {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Josefin Sans';
+    }
+    #banner-subtitle-text {
+        font-size: 1.3rem;
+        color: #929191;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) and (min-width: 700px) {
+    #banner-image {
+        max-height: 60vh;
+    }
+    .banner-image-div {
+        display: flex;
+        justify-content: center;
+    }
+    #banner-subtitle {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        text-align: justify;
+        padding: 10px;
+        font-family: 'Josefin Sans';
+    }
+    #banner-subtitle-text {
+        font-size: 1.3rem;
+        color: #929191;
+    }
+}
+
+/* Desktop */
+@media only screen and (max-width: 1920px) and (min-width:1024px) {
+    #banner-image {
+        max-height: 75vh;
+    }
+    #landing-title {
+        font-size: 4rem;
+    }
+    .banner-image-div {
+        display: flex;
+        justify-content: center;
+    }
+    #banner-subtitle {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        text-align: justify;
+        padding: 10px;
+        font-family: 'Josefin Sans';
+    }
+    #banner-subtitle-text {
+        font-size: 1.5rem;
+        color: #929191;
+    }
+}
 
 .navbar-item {
     display: flex;
@@ -6,12 +79,65 @@
     align-items: center;
 }
 
-.top-address-div{
+.top-address-div {
     text-align: center;
     background-color: yellow;
 }
 
-#login-button.buttons{
+#login-button.buttons {
     display: flex;
     justify-content: center;
+}
+
+.hero-body {
+    background-image: url("../images/banner-background.jpg");
+    background-repeat: no-repeat;
+}
+
+.hero.is-fullheight-with-navbar {
+    min-height: calc(100vh - 6.5rem);
+}
+
+#landing-title {
+    color: White;
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+
+#landing-banner {
+    background-color: #020305;
+    min-height: calc(100vh - 25vh);
+    border-radius: 15px;
+}
+#landing-subtitle {
+    color: White;
+    font-family: 'Josefin Sans';
+}
+#banner-title-fitness {
+    color: Black;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.banner-title-div {
+    display: flex;
+    align-items: center;
+    min-height: 50%;
+}
+
+.title-banner-row {
+    min-height: 80vh;
+}
+
+.button.is-black {
+    background-color: #0b0d10;
+}
+.button.is-black:hover {
+    background-color: #1e1e1f;
+}
+.banner-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
