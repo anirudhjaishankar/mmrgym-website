@@ -1,7 +1,14 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
 
 .navbar-item {
-    text-align: center
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-address-div{
+    text-align: center;
+    background-color: yellow;
 }
 
 #login-button.buttons{
