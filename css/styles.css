@@ -22,6 +22,18 @@
         font-size: 1.3rem;
         color: #929191;
     }
+    .feature-card {
+        background-color: grey;
+        min-width: 70vw;
+        max-width: 70vw;
+        min-height: 15vh;
+        text-align: center;
+        border-radius: 25px;
+    }
+    .feature-img {
+        height: 15vh;
+        margin-top: 2vh;
+    }
 }
 
 /* Tablet */
@@ -44,6 +56,18 @@
     #banner-subtitle-text {
         font-size: 1.3rem;
         color: #929191;
+    }
+    .feature-card {
+        background-color: grey;
+        min-width: 40vw;
+        max-width: 70vw;
+        min-height: 15vh;
+        text-align: center;
+        border-radius: 25px;
+    }
+    .feature-img {
+        height: 15vh;
+        margin-top: 1vh;
     }
 }
 
@@ -71,6 +95,24 @@
         font-size: 1.5rem;
         color: #929191;
     }
+    .feature-card {
+        background-color: grey;
+        min-width: 20vw;
+        max-width: 15vw;
+        min-height: 24vh;
+        text-align: center;
+        border-radius: 25px;
+    }
+    .feature-img {
+        height: 15vh;
+        margin-top: 2vh;
+    }
+}
+
+/* Common */
+
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar-item {
@@ -89,7 +131,7 @@
     justify-content: center;
 }
 
-.hero-body {
+#landing-hero-body {
     background-image: url("../images/banner-background.jpg");
     background-repeat: no-repeat;
 }
@@ -140,4 +182,37 @@
     align-items: center;
     justify-content: center;
     margin: 20px;
+}
+
+#navbar {
+    background-color: black;
+}
+
+.navbar-item {
+    color: white;
+}
+
+#feature-container {
+    min-height: 80vh;
+    border-radius: 15px;
+}
+
+.feature-title {
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+}
+
+.feature-block{
+    display:flex;
+    justify-content: center;
+}
+
+#feature-card-section{
+    margin-top:2vh;
+    margin-bottom:2vh;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Josefin Sans';
 }
