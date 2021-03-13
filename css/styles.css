@@ -34,6 +34,17 @@
         height: 15vh;
         margin-top: 2vh;
     }
+    #slideshow {
+        background-color: #1e1e1f;
+        margin: 20px;
+        border-radius: 15px;
+        padding: 30px;
+        min-height: 60vh;
+        max-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
 
 /* Tablet */
@@ -68,6 +79,17 @@
     .feature-img {
         height: 15vh;
         margin-top: 1vh;
+    }
+    #slideshow {
+        background-color: #1e1e1f;
+        margin: 20px;
+        border-radius: 15px;
+        padding: 30px;
+        min-height: 60vh;
+        max-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }
 
@@ -106,6 +128,17 @@
     .feature-img {
         height: 15vh;
         margin-top: 2vh;
+    }
+    #slideshow {
+        background-color: #1e1e1f;
+        margin: 20px;
+        border-radius: 15px;
+        padding: 30px;
+        min-height: 60vh;
+        max-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }
 
@@ -216,3 +249,14 @@ html {
 .title {
     font-family: 'Josefin Sans';
 }
+
+#slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#results-title{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
