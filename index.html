@@ -1,171 +1,40 @@
-<!doctype html>
-
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MMR Fitness Center</title>
-    <meta name="description" content="MMR Fitness Center">
-    <meta name="author" content="Anirudh J">
-
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="public/styles.css">
 </head>
 
 <body>
-    <!-- Top address and phone number -->
-    <div class="top-address-div">
-        <div>
-            56, 22, Madurai Veeran St, Kalaivanar Nagar, Padi, Chennai, Tamil Nadu 600050
-        </div>
-        <div>
-            +91 8939193941
-        </div>
-        <div class="phone-text">
-
+    <div class="bg-primaryColor h-screen">
+        <!-- navbar -->
+        <nav class="z-20">
+            <div>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Gallery</li>
+            </div>
+            <div>
+                MMR FITNESS CENTER
+            </div>
+            <div>
+                <li>Contact</li>
+                <li>Mobile</li>
+                <li>Login</li>
+            </div>
+        </nav>
+        <!-- Landing Page section -->
+        <div class="landing-image h-screen">
+            <div class="font-landingPageHeader text-headerTextColor text-8xl">
+                <span class="block">FITNESS.</span>
+                <span class="block">DONE.</span>
+                <span class="block">RIGHT.</span>
+            </div>
         </div>
     </div>
-    <!-- Navbar -->
-    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item">
-                MMR Fitness Center
-            </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-        <div id="navbar" class="navbar-menu">
-            <div class="navbar-end">
-                <a class="navbar-item" href="#home">
-                    Home
-                </a>
-
-                <a class="navbar-item" href="#programs">
-                    Programs
-                </a>
-
-                <a class="navbar-item">
-                    Testimonials
-                </a>
-
-                <a class="navbar-item">
-                    Gallery
-                </a>
-
-                <a class="navbar-item">
-                    Location
-                </a>
-
-                <a class="navbar-item">
-                    Contact us
-                </a>
-
-                <div class="navbar-item">
-                    <button class="button is-warning">Login</button>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Landing Banner -->
-    <section class="hero is-transparent is-fullheight-with-navbar" id="home">
-        <div class="hero-body" id="landing-hero-body">
-            <div class="container" id="landing-banner">
-                <div class="columns is-desktop title-banner-row">
-
-                    <div class="column is-half">
-                        <div class="banner-image-div">
-                            <img src="https://anirudhjaishankar.github.io/mmrgym-website/images/banner-image.jpg"
-                                id="banner-image">
-                        </div>
-                    </div>
-
-                    <div class="column is-half">
-                        <div class="banner-title-div">
-                            <h1 class="title is-1" id="landing-title">
-                                GET READY FOR A SEASON OF <span id="banner-title-fitness">FITNESS</span>
-                            </h1>
-                        </div>
-                        <div id="banner-subtitle">
-                            <h2 class="subtitle" id="banner-subtitle-text">
-                                Conquer you body and develop discipline this summer with us.
-                            </h2>
-                        </div>
-                        <div class="banner-button">
-                            <button class="button is-warning"><b>Contact us</b></button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Programs Section -->
-    <section class="hero is-black is-fullheight" id="programs">
-        <div class="hero-body">
-            <div class="container" id="feature-container">
-                <div id="feature-card-section">
-                    <h1 class="title is-1">Programs</h1>
-                    <div class="columns">
-                        <div class="column feature-block">
-                            <div class="feature-card">
-                                <img src="./images/icons/045-treadmill.svg" alt="cardio training illustration"
-                                    class="feature-img">
-                                <h1 class="title is-3 feature-title">Cardio Training</h1>
-                            </div>
-                        </div>
-                        <div class="column feature-block">
-                            <div class="feature-card">
-                                <img src="./images/icons/027-sportsman.svg" alt="cardio training illustration"
-                                    class="feature-img">
-                                <h1 class="title is-3 feature-title">Personal Training</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column feature-block">
-                            <div class="feature-card">
-                                <img src="./images/icons/019-dumbbell.svg" alt="cardio training illustration"
-                                    class="feature-img">
-                                <h1 class="title is-3 feature-title">Strength Training</h1>
-                            </div>
-                        </div>
-                        <div class="column feature-block">
-                            <div class="feature-card">
-                                <img src="./images/icons/033-protein.svg" alt="cardio training illustration"
-                                    class="feature-img">
-                                <h1 class="title is-3 feature-title">Weight Gain</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="column feature-block">
-                            <div class="feature-card">
-                                <img src="./images/icons/036-scales.svg" alt="cardio training illustration"
-                                    class="feature-img">
-                                <h1 class="title is-3 feature-title">Weight Loss</h1>
-                            </div>
-                        </div>
-                        <div class="column feature-block">
-                            <div class="feature-card">
-                                <img src="./images/icons/005-bench press.svg" alt="cardio training illustration"
-                                    class="feature-img">
-                                <h1 class="title is-3 feature-title">Body Building</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>
