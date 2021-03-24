@@ -1,19 +1,24 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {
-      colors: {
-        primaryColor: '#0C1221',
-        headerTextColor: '#ffffff',
-      },
-      fontFamily: {
-        landingPageHeader: ['Stardos Stencil']
-      }
+    purge: {
+        enabled: true,
+        content: ['./index.html'],
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+        extend: {
+            colors: {
+                primaryColor: '#0C1221',
+                primaryTextColor: '#ffffff',
+                navbarInactiveColor: '#8D8D8D'
+            },
+            fontFamily: {
+                primary: ['Stardos Stencil'],
+                secondary: ['Lato']
+            }
+        },
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [],
 }

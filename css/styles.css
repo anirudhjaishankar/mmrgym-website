@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,
+body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
 
-.landing-image{
+.landing-image {
     background-image: url('../images/background-landing-page.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nav-blur {
+    backdrop-filter: blur(50px);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.section-scroll-child {
+    scroll-snap-align: start;
 }

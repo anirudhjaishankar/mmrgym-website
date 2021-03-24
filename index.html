@@ -9,30 +9,34 @@
 </head>
 
 <body>
-    <div class="bg-primaryColor h-screen">
+    <div class="body-scroll-parent">
         <!-- navbar -->
-        <nav class="z-20">
-            <div>
-                <li>Home</li>
-                <li>Services</li>
-                <li>Gallery</li>
+        <nav class="nav-blur flex justify-between items-center fixed top-0 w-full h-16 p-2 bg-transparent font-secondary text-xl text-primaryTextColor">
+            <div class="flex flex-row justify-evenly w-1/3">
+                <div>Home</div>
+                <div class="text-navbarInactiveColor">Services</div>
+                <div class="text-navbarInactiveColor">Gallery</div>
             </div>
             <div>
                 MMR FITNESS CENTER
             </div>
-            <div>
-                <li>Contact</li>
-                <li>Mobile</li>
-                <li>Login</li>
+            <div class="flex flex-row justify-evenly w-1/3">
+                <div class="text-navbarInactiveColor">Contact</div>
+                <div class="text-navbarInactiveColor">Mobile</div>
+                <div class="text-navbarInactiveColor">Login</div>
             </div>
         </nav>
         <!-- Landing Page section -->
-        <div class="landing-image h-screen">
-            <div class="font-landingPageHeader text-headerTextColor text-8xl">
-                <span class="block">FITNESS.</span>
-                <span class="block">DONE.</span>
-                <span class="block">RIGHT.</span>
+        <div class="landing-image h-screen w-screen section-scroll-child">
+            <div class="font-primary text-primaryTextColor flex flex-col items-start justify-end h-screen pb-16 pl-80 md:text-9xl  sm:text-6xl">
+                <div>FITNESS.</div>
+                <div>DONE.</div>
+                <div>RIGHT.</div>
             </div>
+        </div>
+        <!-- Services section -->
+        <div class="h-screen w-screen section-scroll-child bg-primaryColor">
+
         </div>
     </div>
 </body>
