@@ -9,8 +9,15 @@ body {
     scroll-behavior: smooth;
 }
 
-.landing-image {
+.webp .landing-image {
     background-image: url('../images/background-landing-page.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.no-webp .landing-image {
+    background-image: url('../images/background-landing-page.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
